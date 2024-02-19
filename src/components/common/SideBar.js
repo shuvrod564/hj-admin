@@ -35,7 +35,7 @@ export function SideBar() {
         <>
             <nav className={`
                 bg-white min-h-[calc(100vh-32px)] rounded-lg py-3 pl-3 transition-all duration-300 overflow-hidden
-                ${collapsed_menu ? 'w-[70px]' : 'w-[280px]'} 
+                ${collapsed_menu ? 'w-[70px]' : 'w-[240px]'} 
             `}>
                 <div className={`
                     mb-7 flex items-center pe-3 transition-all duration-300 h-14

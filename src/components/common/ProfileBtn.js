@@ -33,9 +33,9 @@ export function ProfileBtn(props) {
                 <a onClick={(e) => e.preventDefault()} className="inline-block cursor-pointer"> 
                     <Image
                         src={"/images/global/user.webp"}
-                        width={48} height={48}
+                        width={40} height={40}
                         alt="User Thumb"
-                        className="rounded-full"
+                        className="rounded-full object-cover"
                     />  
                 </a>
             </Dropdown>

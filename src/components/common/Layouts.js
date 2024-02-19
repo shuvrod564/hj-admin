@@ -15,7 +15,7 @@ export function Layouts({children}) {
             router == '/login' ? <Authlayout>{children}</Authlayout>: ( 
                 <div className="flex p-4">
                     <SideBar />
-                    <div className="col pl-4 pr-2 pb-4">
+                    <div className="col pl-4 md:pl-5 pr-2 pb-4">
                         <Header />
                         {children}
 
