@@ -1,0 +1,2 @@
+.link__list li a span { flex: 1 0 0%; }
+.collapsed li a span { @apply opacity-0 }
